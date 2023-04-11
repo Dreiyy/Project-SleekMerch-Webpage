@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="design.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="pictures/SleekLG.png" alt="" width="200" height="100"> 
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="store.html">Store</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contacts</a>
+        </li>
+      </ul>
+      <div class="sign-in">
+        <button type="button" class="btn btn-warning mx-2 fs-5">Sign In</button>
+        <button type="button" class="btn btn-transparent position-relative">
+            <img src="pictures/trolley.png" alt="" width="40" height="40">
+          <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+            <span class="visually-hidden">New alerts</span>
+          </span>
+        </button>
+       </div>
+    </div>
+  </nav>
+  <!-- Contents -->
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-sm-6">
+        <blockquote class="blockquote fs-2">
+          <p class="mb-0">A BRAND FOR CUSTOM DESIGN FOR ALL YOUR NEEDS</p>
+        </br>
+        <a href="#" class="text-decoration-none">
+          <p class="blockquote-footer">Pre-Order</p></a>
+        </blockquote>
+      </div>
+      <div class="col-sm-5">
+        <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        
+          <div class="carousel-inner shadow-sm p-2">
+            <div class="carousel-item active">
+              <img src="pictures/clothing.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="pictures/dancingman.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="pictures/stackclothing.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center">
+          © 2023 Copyright: SleekMerch
+        </div>
+        <div class="col-1 mx-auto d-block">
+          <a href="#" class="text-decoration-none">
+          <img src="pictures/instagram.png" class="mx-2" alt="Image 1"></a>
+          <a href="#" class="text-decoration-none">
+          <img src="pictures/facebook-app-symbol.png" class="mx-2" alt="Image 2"></a>
+          <a href="#" class="text-decoration-none">
+          <img src="pictures/twitter.png" class="mx-2" alt="Image 3"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+	background-image:linear-gradient(to right,#ffffff,#dfe9f3);
+}
+@font-face{
+	font-family: customFont;
+	src: url(MADE-Soulmaze.otf);
+}
+@font-face{
+	font-family: myFont;
+	src: url(AgencyFB-Bold.ttf);
+}
+.blockquote{
+    font-family: myFont;
+    margin-top: 350px;
+}
+.nav-link{
+    font-family: customFont;
+    color: black;
+    margin-left: 220px;
+    margin-top: -15px;
+}
+.nav-link::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: red;
+	transition: width .3s;
+}
+.nav-link:hover::after{
+	width:100%;
+	transition: width .3s;
+}
+.sign-in{
+    margin-top: -23px;
+    margin-left: 220px;
+}
+.content title{
+    font-family: myFont;
+}
+.container{
+    margin-top: 180px;
+}
+.card-title{
+    font-family: myFont;
+    font-size: 35px;
+}
+.card-text{
+    font-family: myFont;
+    font-size: 20px;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+footer img {
+	width: 20px;
+	height: 20px;
+  }
